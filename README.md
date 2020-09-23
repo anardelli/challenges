@@ -63,6 +63,8 @@ O objeto de saída deve ser igual ao objeto de entrada:
     * _Status_: 404
     * Corpo: Objeto de erro
 
+A variável `{{number}}` representa o número do Pokémon que deseja-se procurar. Exemplo: `/pokemon/47`.
+
 #### Corpo da resposta (200)
 
 O objeto de saída deve ser o Pokémon encontrado. Por exemplo, ao procurar o Pokémon 47, deve retornar o seguinte objeto:
@@ -123,4 +125,45 @@ Deve retornar um vetor com a lista de todos os Pokémon criados anteriormente. E
   "types": ["Bug", "Flying"]
  }
 ]
+```
+
+### DELETE /pokemon/{{number}}: Excluir um Pokémon
+
+* Requisição
+  * Método: `DELETE`
+  * Rota: `/pokemon/{{number}}`
+  * Corpo: _Vazio_
+* Resposta
+  * Quando o Pokémon for encontrado
+    * _Status_: 200
+    * Corpo: Objeto Pokémon que foi excluído
+  * Quando o Pokémon não foi encontrado
+    * _Status_: 404
+    * Corpo: Objeto de erro
+
+A variável `{{number}}` representa o número do Pokémon que deve ser excluído. Exemplo: `/pokemon/47`.
+
+#### Corpo da resposta (200)
+
+O objeto de saída deve ser o Pokémon excluído. Por exemplo, ao excluir o Pokémon 47, deve retornar o seguinte objeto:
+
+```json
+{
+  "number": 47,
+  "name": "Parasect",
+  "photo": "https://cdn.bulbagarden.net/upload/thumb/8/80/047Parasect.png/250px-047Parasect.png",
+  "types": ["Bug", "Grass"]
+}
+```
+
+#### Corpo da resposta (404)
+
+Caso o Pokémon que deseja-se excluir não exista, deves-se retornar o seguinte corpo como resposta da requisição.
+
+```json
+{
+  "statusCode": 404,
+  "message": "Pokémon not found",
+  "error": "Not Found"
+}
 ```
