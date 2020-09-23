@@ -11,19 +11,21 @@ Criar uma [API Rest](https://pt.wikipedia.org/wiki/REST) para gerenciamento de P
 
 A API deverá fornecer as seguintes rotas:
 
-### POST /pokemon: Criar um novo Pokemon
+### POST /pokemon: Criar um novo Pokémon
 
 #### Especificações
 
-* Método: `POST`
-* Rota: `/pokemon`
-* Entrada: Objeto JSON com os dados do Pokemon
-* _Status_ da resposta: 200
-* Corpo da resposta: Objeto JSON com os dados do Pokemon inserido
+* Requisição
+  * Método: `POST`
+  * Rota: `/pokemon`
+  * Corpo: Objeto JSON com os dados do Pokémon
+* Resposta
+  * _Status_: 200
+  * Corpo: Objeto JSON com os dados do Pokémon inserido
 
-#### Objeto de entrada
+#### Corpo da requisição
 
-Objeto do tipo JSON com os dados do Pokemon. Exemplo:
+Objeto do tipo JSON com os dados do Pokémon. Exemplo:
 
 ```json
 {
@@ -34,7 +36,7 @@ Objeto do tipo JSON com os dados do Pokemon. Exemplo:
 }
 ```
 
-#### Objeto de saída
+#### Corpo da resposta
 
 O objeto de saída deve ser igual ao objeto de entrada:
 
@@ -46,3 +48,17 @@ O objeto de saída deve ser igual ao objeto de entrada:
   "types": ["Bug", "Grass"]
 }
 ```
+
+### GET /pokemon/{{number}}: Obter um Pokémon
+
+* Requisição
+  * Método: `GET`
+  * Rota: `/pokemon/{{number}}`
+  * Corpo: _Vazio_
+* Resposta
+  * Quando o Pokémon foi encontrado
+    * _Status_: 200
+    * Corpo: Objeto JSON com os dados do Pokémon encontrado
+  * Quando o Pokémon não foi encontrado
+    * _Status_: 404
+    * Corpo: Objeto de erro
