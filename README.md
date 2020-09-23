@@ -180,4 +180,21 @@ Quando um Pokémon é criado ou excluído, esse arquivo deverá ser atualizado.
 
 ## Entrega
 
-O projeto deve ser entregue via e-mail. A pasta do projeto deve ser conter o fontes do projeto. Deve-se exc
+O projeto deve ser entregue via e-mail em um arquivo no formato `.zip`. O conteúdo do arquivo deve ser um pasta, dentro da qual deve-se encontrar:
+
+* Fontes do projeto.
+* Arquivo `packages.json`.
+* Arquivo `pokemon.json`.
+* Outros arquivos necessários para o funcionamento do projeto.
+
+**Observação**: Excluir a pasta `node_modules` antes de enviar o projeto.
+
+## Fontes de pesquisa
+
+* [Configurando o Node como ambiente de desenvolvimento](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/ambiente_de_desenvolvimento)
+* [Express - Instalação](https://expressjs.com/pt-br/starter/installing.html)
+* [Começando uma API REST com Node.JS](https://ezdevs.com.br/comecando-uma-api-rest-com-node-js/)
+* [Criando uma API RESTful com NodeJS e Express](https://medium.com/xp-inc/https-medium-com-tiago-jlima-developer-criando-uma-api-restful-com-nodejs-e-express-9cc1a2c9d4d8)
+* [API HTTP + REST – Conceito e exemplo em Node.js](https://imasters.com.br/back-end/api-http-rest-conceito-e-exemplo-em-node-js)
+* [Reading and Writing JSON Files with Node.js](https://stackabuse.com/reading-and-writing-json-files-with-node-js/)
+* [Read/Write JSON Files with Node.js](https://medium.com/@osiolabs/read-write-json-files-with-node-js-92d03cc82824)
