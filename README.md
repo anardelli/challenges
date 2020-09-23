@@ -178,3 +178,6 @@ Os Pokémon criados deverão ser armazenados em um arquivo denominado `pokemon.j
 
 Quando um Pokémon é criado ou excluído, esse arquivo deverá ser atualizado.
 
+## Entrega
+
+O projeto deve ser entregue via e-mail. A pasta do projeto deve ser conter o fontes do projeto. Deve-se exc
