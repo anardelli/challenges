@@ -176,5 +176,5 @@ Os Pokémon criados deverão ser armazenados em um arquivo denominado `pokemon.j
 []
 ```
 
-Quando um Pokémon é criado, esse arquivo deverá ser atualizado.
+Quando um Pokémon é criado ou excluído, esse arquivo deverá ser atualizado.
 
