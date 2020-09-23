@@ -87,3 +87,40 @@ Caso o Pokémon procurado não exista, deves-se retornar o seguinte corpo como r
   "error": "Not Found"
 }
 ```
+
+### GET /pokemon: Listar todos os Pokémon
+
+* Requisição
+  * Método: `GET`
+  * Rota: `/pokemon`
+  * Corpo: _Vazio_
+* Resposta
+  * _Status_: 200
+  * Corpo: Vetor com a lista de Pokémon encontrado
+
+#### Corpo da resposta
+
+Deve retornar um vetor com a lista de todos os Pokémon criados anteriormente. Exemplo:
+
+```json
+[
+ {
+   "number": 47,
+   "name": "Parasect",
+   "photo": "https://cdn.bulbagarden.net/upload/thumb/8/80/047Parasect.png/250px-047Parasect.png",
+   "types": ["Bug", "Grass"]
+ },
+ {
+  "number": 105,
+  "name": "Marowak",
+  "photo": "https://cdn.bulbagarden.net/upload/thumb/9/98/105Marowak.png/250px-105Marowak.png",
+  "types": ["Ground"]
+ },
+ {
+  "number": 123,
+  "name": "Scyther",
+  "photo": "https://cdn.bulbagarden.net/upload/thumb/b/ba/123Scyther.png/250px-123Scyther.png",
+  "types": ["Bug", "Flying"]
+ }
+]
+```
