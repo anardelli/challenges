@@ -167,3 +167,14 @@ Caso o Pokémon que deseja-se excluir não exista, deves-se retornar o seguinte 
   "error": "Not Found"
 }
 ```
+
+## Armazenamento
+
+Os Pokémon criados deverão ser armazenados em um arquivo denominado `pokemon.json`, que deverá ser criado na pasta raiz do projeto. Inicialmente, o conteúdo desse arquivo deve ser um vetor vazio:
+
+```json
+[]
+```
+
+Quando um Pokémon é criado, esse arquivo deverá ser atualizado.
+
