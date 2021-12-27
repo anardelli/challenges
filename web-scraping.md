@@ -63,6 +63,14 @@ O [Got](https://github.com/sindresorhus/got) permite realizar requisições HTTP
 
 O [jsdom](https://github.com/jsdom/jsdom) permite manipular um documento HTML. Usando os [seletores](https://www.w3schools.com/jsref/met_document_queryselector.asp) é possível extrair as informações desejadas da página HTML.
 
+### `puppeteer`
+
+O [Puppeteer](https://github.com/puppeteer/puppeteer) é uma biblioteca Node que permite simular o navegador web. Com essa biblioteca também é possível simular cliques, operações do teclado e navegação.
+
+### `playwright`
+
+O [Playwright](https://github.com/microsoft/playwright) é uma alternativa ao Puppeteer. Ele promete fazer tudo que o Puppeteer faz mas por um custo menor de processamento e memória.
+
 #### Expressões regulares
 
 Se o `jsdom` não for o suficiente para realizar a tarefa, ainda é possível recorrer às expressões regulares: [Expressões Regulares](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions).
