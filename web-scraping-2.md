@@ -21,4 +21,4 @@ Deve-se desenvolver um código que seja capaz de obter uma relação completa de
 ]
 ```
 
-(imagem)[challenge-image-001.png]
+(imagem)[./challenge-image-001.png]
