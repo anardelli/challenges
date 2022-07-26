@@ -20,5 +20,8 @@ Deve-se desenvolver um código que seja capaz de obter uma relação completa de
   }
 ]
 ```
+Os consoles disponíveis podem ser localizados no menu lateral do site, conforme destaca a imagem a seguir.
 
-[imagem](challenge-image-001.png)
+![Consoles Menu](challenge-image-001.png "Consoles menu")
+
+Para obter os jogos de um console, deve-se selecionar o console desejado. Depois, no topo da página serão apresentadas as letras do alfabeto.
