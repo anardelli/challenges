@@ -31,3 +31,20 @@ Para obter os jogos de um console, deve-se selecionar o console desejado. Depois
 Depois de selecionar uma letra, serão apresentados os nomes dos jogos com suas respectivas imagens.
 
 ![Jogos](challenge-image-003.png "Jgoos")
+
+## Pré-requisitos
+
+* Linguagem de programação: JavaScript e/ou TypeScript
+* Plataforma: Node.js
+
+## Entrega
+
+Deve-se entregar como resultado do desafio um arquivo compactado. O conteúdo do arquivo deve incluir:
+
+* `README.md`: arquivo com as instruções para execução do projeto.
+* `package.json`: arquivo que contém as definições das bibliotecas usadas no projeto.
+* Fontes do projeto.
+
+Se o projeto for desenvolvido em TypeScript, deve-se incluir o arquivo `tsconfig.json`.
+
+A pasta `node_modules` _não deve_ ser enviada.
