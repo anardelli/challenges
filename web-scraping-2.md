@@ -25,3 +25,8 @@ Os consoles disponíveis podem ser localizados no menu lateral do site, conforme
 ![Consoles Menu](challenge-image-001.png "Consoles menu")
 
 Para obter os jogos de um console, deve-se selecionar o console desejado. Depois, no topo da página serão apresentadas as letras do alfabeto.
+
+![Letras](challenge-image-002.png "Letras")
+
+Depois de selecionar uma letra, serão apresentados os nomes dos jogos com suas respectivas imagens.
+
