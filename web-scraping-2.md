@@ -30,3 +30,4 @@ Para obter os jogos de um console, deve-se selecionar o console desejado. Depois
 
 Depois de selecionar uma letra, serão apresentados os nomes dos jogos com suas respectivas imagens.
 
+![Jogos](challenge-image-003.png "Jgoos")
